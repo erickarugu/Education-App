@@ -1,0 +1,64 @@
+.navbar{
+	background-color: rgba(255, 206, 35, 0.5);
+}
+.laravel ul li{
+	padding-right: 70px;
+	margin-top: 15px;
+	display: inline-block !important;
+	list-style: none;
+}
+.top-sect{
+	background-color: black;
+	margin: 0px;
+	color: white;
+	font-weight: bold;
+	padding: 00px 0px 5px 20px;
+}
+.rating{
+	padding-top: 150px;
+	line-height: 0px;
+}
+.rating img{
+	margin-top: 30px;
+}
+.cart{
+	margin-top: 20px;
+}
+.btn-danger{
+	background-color: #ff002d;
+	border-radius: 0px;
+	margin: 20px 0px 20px 0px;
+	padding: 10px 50px 10px 50px;
+}
+hr{
+
+	border: 1px solid;
+	width: 100%;
+}
+.fa{
+	color: black;
+	font-size: 70px;
+	padding-right: 15px;
+}
+.fa:hover{
+	color: gray;
+	text-decoration: none;
+}
+.atom{
+	background-color: white;
+	padding: 10px 10px 10px 0px;
+	margin: 50px 0px 0px 0px;
+}
+.what-to-learn{
+	border: solid 1px black;
+	margin-left: 5px; 
+	margin-top: 10px;
+	border-top: none !important;
+
+}
+.about{
+	margin-top: 20px;
+}
+.courses{
+	margin-top: 20px;
+}

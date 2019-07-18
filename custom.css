@@ -2,6 +2,7 @@
 
 body{
 margin: 0px;
+font-family: 'Noto Sans', sans-serif;
 }
 .navbar{
 	background-color: rgba(0,0,0,.5);
@@ -10,7 +11,11 @@ margin: 0px;
 	color: #3bff44 !important;
 	font-family: 'Noto Sans', sans-serif;
 	font-weight: bold;
-	padding-left: 50px !important;
+	padding-left: 25px !important;
+	padding-right: 25px!important;
+}
+.navbar a:hover{
+	color: blue! important;
 }
 .form-control{
 	color: #d0c0c0 !important!;
