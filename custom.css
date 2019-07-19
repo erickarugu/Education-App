@@ -17,6 +17,9 @@ font-family: 'Noto Sans', sans-serif;
 .navbar a:hover{
 	color: blue! important;
 }
+.navbar-toggler-icon{
+	color: yellow;
+}
 .form-control{
 	color: #d0c0c0 !important!;
 }
@@ -44,6 +47,20 @@ font-family: 'Noto Sans', sans-serif;
 	margin: 0;
 	padding: 10px 20px 10px 20px;
 
+}
+.checked{
+	color: orange! important;
+	font-size: 30px !important;
+}
+.unchecked{
+	color: gray !important;
+	font-size: 30px !important;
+}
+.rating-stars:hover{
+	color: green !important;
+}
+.unchecked:hover{
+	color: yellow !important;
 }
 .stats img{
 	width: 40px;
@@ -100,6 +117,13 @@ footer{
 }
 h5{
 	padding-top: 80px;
+}
+footer a:hover{
+	text-decoration: none;
+}
+footer .fa{
+	color: white;
+	font-size: 15px;
 }
 
 
