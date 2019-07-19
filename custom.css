@@ -7,15 +7,20 @@ font-family: 'Noto Sans', sans-serif;
 .navbar{
 	background-color: rgba(0,0,0,.5);
 }
-.navbar a{
+.navbar-brand{
+	color: #76e47b !important;
+}
+.navbar ul a{
 	color: #3bff44 !important;
 	font-family: 'Noto Sans', sans-serif;
 	font-weight: bold;
 	padding-left: 25px !important;
 	padding-right: 25px!important;
 }
-.navbar a:hover{
+.navbar ul a:hover{
 	color: #76e47b !important;
+	border-bottom: 2px solid red;
+	border;
 }
 .navbar-toggler-icon{
 	color: yellow;
