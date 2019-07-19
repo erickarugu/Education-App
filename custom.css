@@ -34,7 +34,7 @@ font-family: 'Noto Sans', sans-serif;
 	margin: 0px;
 	color: white;
 	font-weight: bold;
-	padding: 200px 0px 150px 15px;
+	padding: 150px 0px 100px 15px;
 	font-weight: bold;
 	background-size: cover;
 	font-size: 54px !important;
@@ -74,9 +74,15 @@ font-family: 'Noto Sans', sans-serif;
 .content-pages a:hover{
 	color: green;
 }
+.content-pages{
+	border-bottom: 2px solid green;
+}
+.content-pages li:hover{
+	border-bottom: 4px solid red;
+}
 .content-pages ul li a{
 	text-decoration: none;
-	padding-left: 20px;
+	padding: 0px 20px 0px 20px;
 	font-weight: bold;
 }
 .content-pages ul li{

@@ -4,8 +4,9 @@
 	<title>Tutomalix</title>
 	<meta charset="utf-8">
 	<meta lang="en">
-	 <link rel="shortcut icon" type="image/x-icon" href="resources/logo.png">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta title="Education Application" description="An eduaction app to teach programming">
+	<link rel="shortcut icon" type="image/x-icon" href="resources/logo.png">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script> 
@@ -31,16 +32,13 @@
 			      		</form>
 			      	</li>
 			        <li class="nav-item">
-			          <a class="nav-link" href="#">Home</a>
-			        </li>
-			        <li class="nav-item">
 			          <a class="nav-link" href="pages/laravel.html">Laravel</a>
 			        </li>
 			        <li class="nav-item">
-			          <a class="nav-link" href="#">Services</a>
+			          <a class="nav-link" href="#">Tutomalix for Business</a>
 			        </li>
 			        <li class="nav-item">
-			          <a class="nav-link" href="#">Contact</a>
+			          <a class="nav-link" href="#">Become an Instructor</a>
 			        </li>
 			        <li class="nav-item">
 			        	<button class="btn btn-outline-danger my-2 my-sm-0" type="submit" data-toggle="modal" data-target="#modalRegisterForm">Sign Up</button>
@@ -80,17 +78,18 @@
 	        </div>
 
 	      </div>
-	      <div class="modal-footer d-flex justify-content-center">
+	      <div class="modal-footer d-fex justify-content-center">
 	        <button class="btn btn-danger" type="submit">Sign up</button>
+		      	<h6>Already have an account?<a href="#">Log In</a></h6>
 	      </div>
 	    </div>
 	  </div>
 </div>
 	<!-- This is the main section -->
 	<main>
-		<div class="top-image" style="font-size: 54px">
-			<h2 style="font-size: 54px; font-style: bold; font-weight: 10">Learn Everything</h2>
-			<h4 style="font-size: 45px">Study what you want, explore for free!</h4>
+		<div class="top-image">
+			<h2 style="font-size: 6vw" font-style: bold; font-weight: 10">Learn Everything</h2>
+			<h4 style="font-size: 4vw">Study what you want, explore for free!</h4>
 		</div>
 		<div class="stats">
 			<div class="row">
@@ -99,12 +98,12 @@
 					100,000 online courses</p>
 					<p class="text">Explore a variety of categories</p>
 				</div>
-				<div class="col-md-4 col-sm-6" style="text-align: center;">
+				<div class="col-md-4 col-sm-6">
 					<p><img src="resources/contact_icon.png">
 					100,000 online courses</p>
 					<p>Explore a variety of categories</p>
 				</div>
-				<div class="col-md-4 col-sm-6" style="text-align: right;">
+				<div class="col-md-4 col-sm-6">
 					<p><img src="resources/bird_icon.png">
 						100,000 online courses</p>
 					<p>Explore a variety of categories</p>
@@ -114,8 +113,8 @@
 		<div class="container">
 			<div class="d-flex content-pages">
 				<ul class="list-inline mx-auto justify-content-center">
-					<li class="list-inline-item"><a href="#">Coding</a><hr id="hr"></li>
-					<li class="list-inline-item"><a href="#">Gaming</a></li>
+					<li class="list-inline-item"><a href="#coding">Coding</a></li>
+					<li class="list-inline-item"><a href="#gaming">Gaming</a></li>
 					<li class="list-inline-item"><a href="#">3D</a></li>
 				</ul>
 			</div>
@@ -156,7 +155,7 @@
 		</div>
 		<div class="container-fluid">
 			<div class="row">
-				<h3>Coding</h3>
+				<h3><a href="#" name="coding">Coding</a></h3>
 			</div>
 			<div class="row">
 				<div class="thumbnail col-md-2 col-sm-4 col-xm-12">
@@ -208,7 +207,7 @@
 		</div>
 		<div class="container-fluid">
 			<div class="row">
-				<h3>Game</h3>
+				<h3><a href="#" name="gaming">Game</a></h3>
 			</div>
 			<div class="row">
 				<div class="thumbnail col-md-2 col-sm-4 col-xm-12">
