@@ -15,7 +15,7 @@ font-family: 'Noto Sans', sans-serif;
 	padding-right: 25px!important;
 }
 .navbar a:hover{
-	color: blue! important;
+	color: #76e47b !important;
 }
 .navbar-toggler-icon{
 	color: yellow;
